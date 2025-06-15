@@ -1,0 +1,25 @@
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #eee;
+    height: fit-content;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    padding: 1%;
+}
+footer p {
+    user-select: none;
+}
+footer a {
+    margin: 0 1%;
+    text-align: right;
+    float: right;
+    text-decoration: none;
+    color: darkgray;
+}
+
+footer a:hover {
+    color: darkgoldenrod;
+}

@@ -1,0 +1,23 @@
+body {
+    border: 5px solid black;
+    padding: 0.3% 1%;
+}
+
+.idee {
+    list-style-type: "@";
+}
+.Personne {
+    list-style-type: lower-greek;
+}
+.preparation > li {
+    list-style: upper-alpha;
+}
+.ingredient {
+    list-style-image: url("Ex4/img.png");
+}
+ol {
+    list-style-type: decimal-leading-zero;
+}
+.etape > li {
+    list-style-type: square;
+}

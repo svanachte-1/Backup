@@ -1,0 +1,106 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: #b11437;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 90%;
+    width: 90%;
+    background: white;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 25px #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    background: orange;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+header * {
+    user-select: none;
+}
+
+header nav {
+    text-align: center;
+    width: 80%;
+    padding: 15px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 15px #000;
+    background: #fff;
+}
+
+header li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 5%;
+    vertical-align: middle;
+}
+
+header li a {
+    text-decoration: none;
+    color: #010101;
+    font: bold clamp(0.9rem, 1vw, 1.5rem) "Comic Sans MS", cursive;
+
+}
+
+header .active img {
+    pointer-events: none;
+    box-shadow: 0 0 15px orange;
+    border: 2px solid orange;
+    border-radius: 40px;
+    padding: 0;
+}
+
+header .active:not(.active.accueil) {
+    pointer-events: none;
+    box-shadow: 0 0 15px orange;
+    border: 2px solid orange;
+    border-radius: 15px;
+    padding: 2px 10px;
+}
+
+
+header li:not(.active) a:hover  {
+    text-shadow: .5px .5px 1px orange;
+}
+header li:not(.accueil):hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+header img {
+    width: 60px;
+    height: 60px;
+}
+
+header img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}

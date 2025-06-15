@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1744357134 source:d:\code\code_informatique\tableau\dynamique\ex8\main.cpp
+	<iostream>
+	<vector>
+	<iomanip>
+

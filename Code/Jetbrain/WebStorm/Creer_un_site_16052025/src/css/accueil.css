@@ -1,0 +1,57 @@
+.contain h2 {
+    color: orange;
+    font: bold 1rem "Comic Sans MS", Helvetica, Arial, sans-serif;
+    margin: 0 .5%;
+}
+
+picture  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 48%;
+    float: right;
+}
+
+img {
+    width: 80%;
+    border-radius: 16px;
+    box-shadow: 5px 5px 50px #000;
+    filter: blur(.4px);
+    border: 1px solid #000;
+}
+.title {
+    width: 48%;
+    display: inline-block;
+}
+
+.contain * {
+    user-select: none;
+    pointer-events: none;
+}
+
+.contain ul {
+    margin: 3% 0;
+}
+
+.contain ul li {
+    color: orange;
+    font: bold 1rem "Comic Sans MS", Helvetica, Arial, sans-serif;
+    margin: 0 2%;
+    pointer-events: all;
+}
+
+.contain ul li  a {
+    text-decoration: none;
+    color: whitesmoke;
+    pointer-events: all;
+
+}
+
+.contain ul li:hover {
+    margin: 0 10%;
+    transform: scale(1.2);
+    transition-duration: 0.2s;
+    color: orange;
+    -webkit-text-stroke: .1px black;
+}

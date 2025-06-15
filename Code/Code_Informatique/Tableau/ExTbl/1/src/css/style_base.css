@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+}
+h1 {
+    text-decoration: underline;
+}
+img {
+    height: 50px;
+}
+caption {
+    color: brown;
+    font-size: 34px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 5px solid blue;
+    margin: auto;
+}
+
+table tr td, th {
+    border: 1px solid red;
+    width: 200px;
+    height: 120px;
+}
+
+table tr th {
+    background-color: lightsalmon;
+}
+
+.h:not(th) :nth-child(2){
+    vertical-align: top;
+    text-align: left;
+} .h:not(th) :nth-child(3){
+    vertical-align: top;
+    text-align: center;
+}.h:not(th) :nth-child(4){
+    vertical-align: top;
+    text-align: right;
+}
+
+.m:not(th) :nth-child(2){
+    vertical-align: middle;
+    text-align: left;
+} .m:not(th) :nth-child(3){
+    vertical-align: middle;
+    text-align: center;
+}.m:not(th) :nth-child(4){
+    vertical-align: middle;
+    text-align: right;
+}
+
+.b:not(th) :nth-child(2){
+    vertical-align: bottom;
+    text-align: left;
+} .b:not(th) :nth-child(3){
+    vertical-align: bottom;
+    text-align: center;
+}.b:not(th) :nth-child(4){
+    vertical-align: bottom;
+    text-align: right;
+}
+

@@ -1,0 +1,36 @@
+body {
+    background: palegoldenrod;
+    color: maroon;
+} h1 {
+    text-align: center;
+}
+
+article table {
+    margin: auto;
+    border-collapse: separate;
+}
+
+.tb_simple table {
+    background: #fff;
+    width: 200px;
+    border-spacing: 5px;
+} 
+.tb_simple .a td:nth-child(1) {width: 50px; color: #010101;} 
+.tb_simple .a td:nth-child(2) {width: 150px; color: red;}
+.tb_simple .b td:nth-child(1) {
+    background: red;
+    vertical-align: center;
+    text-align: right;
+    height: 150px;
+}
+
+.tb_complexe table{
+    border-spacing: 200px;
+    background: #fff;
+    color: #010101;
+    width: 300px;
+}
+.tb_complexe table * {
+    border: 1px solid #000;
+
+}

@@ -1,0 +1,31 @@
+.tableau {
+    border: 3px dotted red;
+    width: 100%;
+}.tableau th {
+    width: 20%;
+}.tableau th:nth-child(3){
+    width: 60%;
+}.tableau tr * {
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px;
+    width: 33%;
+}.tableau tr td {
+    border: 2px solid #010101;
+    margin: 10px;
+}
+
+.Exercice1 {
+    border: 2px solid black;
+    border-collapse: collapse;
+}.Exercice1 th, .Exercice1 td {
+    border: 1px solid black;
+}
+
+
+.Exercice2 {
+    border-collapse: collapse;
+    border: 1px solid #010101;
+}.Exercice2 tr * {
+    border: 1px solid #010101;
+}

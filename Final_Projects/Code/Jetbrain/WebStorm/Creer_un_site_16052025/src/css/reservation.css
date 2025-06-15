@@ -1,0 +1,108 @@
+.contain {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;           /* tu peux garder ça pour centrer la container */
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    width: 450px;
+    padding: 20px;
+    background-color: #fefefe;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+
+form fieldset {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    border-radius: 12px;
+}
+
+form legend {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0 10px;
+    color: #ff6600;
+}
+
+form label {
+    display: block;
+    margin-bottom: 12px;
+    color: #444;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 8px 10px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+form input[type="radio"] {
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+.genre label {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: normal;
+}
+
+section.btn {
+    text-align: center;
+}
+
+section.btn input[type="submit"],
+section.btn input[type="reset"] {
+    cursor: pointer;
+    background-color: #ff6600;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    font-size: 1rem;
+    border-radius: 8px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+section.btn input[type="submit"]:hover,
+section.btn input[type="reset"]:hover {
+    background-color: #e65c00;
+}
+
+h1, h2 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 60vh;
+    width: 100vw;
+    margin: 3vh;
+}
+h1 {
+    font-size: clamp(0.9rem, 1.5vw, 2.9rem);
+}
+h2 {
+    font-size: clamp(0.9rem, 1vw, 2.3rem);
+    height: 70vh;
+    align-items: center;
+    color: orange;
+}
+

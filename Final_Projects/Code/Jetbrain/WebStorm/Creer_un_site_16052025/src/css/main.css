@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    width: 98%;
+    position: relative;
+    height: calc(100% - 15% - 3%);
+    margin: 1% auto;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    box-shadow: 0  0 3px  black;
+    background: #000 linear-gradient(45deg, blue, cyan);
+
+    /*background: #000 linear-gradient(45deg , magenta, blue);*/
+}

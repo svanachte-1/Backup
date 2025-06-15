@@ -1,0 +1,118 @@
+.container {
+    width: 600px;
+    height: auto;
+    padding: 2rem;
+    background-color: white;
+    border: 2px solid orange;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+
+
+form fieldset {
+    border: 2px solid orange;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+}
+form legend {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #ff5722;
+    padding: 0 10px;
+}
+
+.genre {
+    margin-bottom: 1rem;
+    display: block;
+}
+.genre label {
+    margin-right: 20px;
+    font-weight: bold;
+    color: #444;
+}
+
+.info {
+    display: inline-block;
+    width: 100%;
+}
+.info label {
+    width: 48%;
+    display: inline-block;
+    margin: 1% 1%;
+    vertical-align: top;
+    font-weight: bold;
+    color: #333;
+}
+.info input {
+    display: block;
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+#obj, #message {
+    display: block;
+    width: 98%;
+    margin: 1% auto;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+#message {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.btn {
+    text-align: center;
+    margin-top: 1rem;
+}
+.btn input {
+    padding: 0.6rem 1.5rem;
+    margin: 0 1rem;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(45deg, orange, red);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.btn input:hover {
+    background: linear-gradient(45deg, #ff9800, #e53935);
+}
+h1, h2 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 60vh;
+    width: 100vw;
+    margin: 3vh;
+}
+h1 {
+    font-size: clamp(0.9rem, 1.5vw, 2.9rem);
+}
+h2 {
+    font-size: clamp(0.9rem, 1vw, 2.3rem);
+    height: 70vh;
+    align-items: center;
+    color: orange;
+}
+
+.info label[for=name], .info label[for=email], .info label[for=age] {
+    float: left;
+}
+
+.info label[for=pays] select, .info label[for=age] select {
+    width: 100%;
+    padding: 8px 10px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+
+}
